@@ -9,7 +9,6 @@
     font-family: 'Roboto', sans-serif;
 
 
-
 }
 
 .container {
@@ -40,7 +39,7 @@
     margin-top: 10px;
     height: 48px;
     align-items: center;
-    justify-content: center;
+
 
 
 }
@@ -100,11 +99,17 @@
 
 }
 
-.header {
+.header-container {
+
+    box-shadow: 0px 5px 5px rgba(0,0,0,.3);    
+
+}
+
+.top-header {
 
     display: flex;
     justify-content: space-between;
-    box-shadow: 0px 5px 5px rgba(0,0,0,.3);
+
 
 }
 
@@ -128,11 +133,14 @@
     border-radius: 15px;
     background-color: rgb(174, 208, 236);
     width: 35vw;
+    padding: 8px 15px;
     min-width: 10vw;
     border: none;
+    
+}
 
-
-
+input:focus {
+    outline: none /* Removes the border when the input is clicked */
 }
 
 .right-menu {
@@ -142,6 +150,54 @@
     gap: 25px;
     margin-right: 15px;
     margin-left: 15px;
+
+}
+
+.bottom-header{
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+
+.greetings {
+
+    display: flex;
+    gap: 15px;
+    margin-left: 15px;
+
+}
+
+.greet-pic img{
+
+    height: 80px;
+
+}
+
+.right-buttons {
+
+    display: flex;
+    margin-right: 15px;
+    align-items: center;
+    justify-content: space-between;
+    width: 30vw;
+
+}
+
+.right-buttons button {
+
+    background-color: aqua;
+    border-radius: 15px;
+    border: none;
+    height: 35px;
+    width: 70px;
+
+}
+
+button:hover {
+
+    cursor: pointer;
 
 }
 
